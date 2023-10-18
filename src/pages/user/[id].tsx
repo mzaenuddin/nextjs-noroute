@@ -19,10 +19,10 @@ export default function UserDetail(props: userDetailProps) {
     const { User } = props;
   return (
     <Layout pageTitle="User Detail">
-       <p>{User.name}</p>
+{/*        <p>{User.name}</p>
        <p>{User.email}</p>
        <p>{User.phone}</p>
-       <p>{User.website}</p>
+       <p>{User.website}</p> */}
     </Layout>
   )
 }
